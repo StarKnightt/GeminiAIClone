@@ -13,7 +13,7 @@ const {onSent,recentPrompt,showResult,loading,resultData,setInput,input} = useCo
             <p>
                 Gemini
             </p>
-            <img src={assets.user_icon} alt="" />
+           <img src={assets.user_icon} alt="" />
         </div>
         <div className="main-container">
             {!showResult
@@ -21,6 +21,9 @@ const {onSent,recentPrompt,showResult,loading,resultData,setInput,input} = useCo
                <div className="greet">
                 <p><span>Hello, Developer.</span></p>
                 <p>How can I help you today?</p>
+            </div>
+            <div className="social">
+                <p> Social media - github</p>
             </div>
             <div className="cards">
                 <div className="card">
