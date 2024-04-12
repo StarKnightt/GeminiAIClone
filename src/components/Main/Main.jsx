@@ -17,15 +17,19 @@ const Main = () => {
   return (
     <div className="main">
       <div className="nav">
-      <div className="social">
-              <a
-                href="https://github.com/StarKnightt/GeminiAIClone"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img src={assets.github_icon} alt="GitHub" style={{ width: "24px", height: "24px" }}/>
-              </a>
-            </div>
+        <div className="social">
+          <a
+            href="https://github.com/StarKnightt/GeminiAIClone"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={assets.github_icon}
+              alt="GitHub"
+              style={{ width: "24px", height: "24px" }}
+            />
+          </a>
+        </div>
         <p>Gemini</p>
         <img src={assets.user_icon} alt="" />
       </div>
@@ -38,7 +42,6 @@ const Main = () => {
               </p>
               <p>How can I help you today?</p>
             </div>
-            
 
             <div className="cards">
               <div className="card">
