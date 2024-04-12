@@ -164,4 +164,23 @@ main-bottom{
     background: linear-gradient(to right, #9ed7ff, #ffffff, #9ed7ff);
     background-size: 800px 50px;
     height: 20px;
+    animation: loader 3.5s infinite linear;
+}
+
+@keyframes loader {
+    0%{
+        background-position: -800px 0px;
+
+    }
+    100%{
+        background-position: 800px 0px;
+
+    }
+    
+}
+
+.result-data p{
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.8;
 }
