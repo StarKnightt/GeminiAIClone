@@ -75,7 +75,7 @@
 
 }
 
-main-bottom{
+.main-bottom{
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -125,7 +125,7 @@ main-bottom{
     padding: 0px 5%;
     max-height: 70vh;
     overflow-y: scroll;
-    scrollbar-width: none;   /* Added only for firefox users  */
+    scrollbar-width: none;    
 }
 
 .result::-webkit-scrollbar{
