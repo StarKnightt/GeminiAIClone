@@ -29,4 +29,4 @@ To run this Gemini AI clone, follow these steps:
 
 This project is inspired by the Gemini AI developed by Google. Feel free to explore the capabilities of this Gemini AI clone and leverage its functionalities for various text generation and language processing tasks. For more details and to access the code, visit the [GeminiAIClone GitHub Repository](https://github.com/StarKnightt/GeminiAIClone).
 
-<!-- Feel free to improve the Readme file as much as possible, pull requests are appreciated -->
+Feel free to improve the Readme file as much as possible, pull requests are appreciated
