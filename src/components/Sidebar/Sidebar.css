@@ -73,7 +73,7 @@
 
 @media (prefers-color-scheme: dark) {
 	.sidebar {
-		background-color: #0f0b06;
+		background-color: #1a1a1a;
 	}
 
 	.sidebar .new-chat {
@@ -86,5 +86,12 @@
 
 	.sidebar .recent-entry:hover {
 		background-color: #1d1914;
+	}
+	
+	.recent-title{
+		color: #d7d7d7;
+	}
+	.menu{
+		color: #d7d7d7;
 	}
 }

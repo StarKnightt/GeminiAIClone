@@ -32,7 +32,7 @@ const Main = () => {
 						<img
 							src={assets.github_icon}
 							alt="GitHub"
-							style={{ width: "24px", height: "24px" }}
+							style={{ width: "44px", height: "44px" }}
 						/>
 					</a>
 				</div>

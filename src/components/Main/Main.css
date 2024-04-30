@@ -197,20 +197,21 @@
 }
 
 @media (prefers-color-scheme: dark) {
+	
 	.main .nav {
 		color: #a7a7a7;
 	}
 
 	.main .greet {
-		color: #3b3739;
+		color: #ded8db;
 	}
 
 	.main .card {
-		background-color: #0f0b06;
+		background-color: #342E37;
 	}
 
 	.main .card img {
-		background-color: black;
+		background-color: rgb(241, 229, 229);
 	}
 
 	.main .card p {
@@ -237,5 +238,9 @@
 
 	.result p {
 		color: lightgray;
+	}
+
+	.bottom-info{
+		color: white;
 	}
 }
