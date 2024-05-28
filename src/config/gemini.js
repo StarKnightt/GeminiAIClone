@@ -7,13 +7,19 @@ import {
   HarmBlockThreshold,
 } from "@google/generative-ai";
 
+// Retrieving environment variables for model name and API key
 const MODEL_NAME = import.meta.env.VITE_MODEL_NAME;
 const API_KEY = import.meta.env.VITE_MODEL_API_KEY;
 
+// Function to run the chat
 async function runChat(prompt) {
+  // Creating a new instance of GoogleGenerativeAI with the provided API key
   const genAI = new GoogleGenerativeAI(API_KEY);
+
+  // Getting the generative model using the provided model name
   const model = genAI.getGenerativeModel({ model: MODEL_NAME });
 
+  // Configuration for generating responses
   const generationConfig = {
     temperature: 0.9,
     topK: 1,
@@ -21,6 +27,7 @@ async function runChat(prompt) {
     maxOutputTokens: 2048,
   };
 
+  // Safety settings to filter out harmful content
   const safetySettings = [
     {
       category: HarmCategory.HARM_CATEGORY_HARASSMENT,
@@ -40,16 +47,18 @@ async function runChat(prompt) {
     },
   ];
 
+  // Starting a chat session with the configured settings
   const chat = model.startChat({
     generationConfig,
     safetySettings,
     history: [],
   });
 
+  // Sending the prompt to the chat and awaiting the response
   const result = await chat.sendMessage(prompt);
   const response = result.response;
-  console.log(response.text());
-  return response.text();
+  console.log(response.text()); // Logging the response text
+  return response.text(); // Returning the response text
 }
 
-export default runChat;
+export default runChat; // Exporting the runChat function
