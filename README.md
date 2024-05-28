@@ -26,7 +26,7 @@ To run this Gemini AI clone, follow these steps:
 
 ## Contributors
 
-- [@StarKnightt](https://github.com/StarKnightt)
+- [@StarKnightt](https://github.com/StarKnightt) 
 - [@omlondhe](https://github.com/omlondhe)
 - [@Synchrotek](https://github.com/Synchrotek)
 
