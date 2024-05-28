@@ -8,6 +8,9 @@ This repository contains the code for a clone of Gemini AI, a large language mod
 - Translate languages.
 - Provide informative answers to questions.
 
+
+## Demo
+<video controls src="AwesomeScreenshot-28_5_2024,3 23 00pm.mp4" title="Title"></video>
 ## Installation
 
 To run this Gemini AI clone, follow these steps:
